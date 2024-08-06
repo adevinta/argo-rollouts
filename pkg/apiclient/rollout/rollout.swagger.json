@@ -1206,6 +1206,10 @@
         "aggregator": {
           "type": "string",
           "title": "+kubebuilder:validation:Enum=avg;min;max;sum;last;percentile;mean;l2norm;area\nAggregator is a type of aggregator to use for metrics-based queries (default: \"\"). Used for v2"
+        },
+        "secret": {
+          "type": "string",
+          "description": "Secret refers to the name of the secret that should be used for an analysis and should exists in the namespace where the controller is."
         }
       }
     },

@@ -658,6 +658,9 @@ message DatadogMetric {
   // +kubebuilder:validation:Enum=avg;min;max;sum;last;percentile;mean;l2norm;area
   // Aggregator is a type of aggregator to use for metrics-based queries (default: ""). Used for v2
   optional string aggregator = 6;
+
+  // Secret refers to the name of the secret that should be used for an analysis and should exists in the namespace where the controller is.
+  optional string secret = 7;
 }
 
 // DryRun defines the settings for running the analysis in Dry-Run mode.
