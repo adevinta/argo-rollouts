@@ -1044,7 +1044,7 @@ export interface GithubComArgoprojArgoRolloutsPkgApisRolloutsV1alpha1DatadogMetr
      */
     aggregator?: string;
     /**
-     * Secret refers to the name of the secret that should be used for an analysis and should exists in the namespace where the controller is.
+     * 
      * @type {string}
      * @memberof GithubComArgoprojArgoRolloutsPkgApisRolloutsV1alpha1DatadogMetric
      */
