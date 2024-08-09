@@ -2,7 +2,13 @@ name: Argo Rollouts Fork CI
 
 on:
   workflow_dispatch:
-
+  pull_request:
+    types:
+      - opened
+      - synchronize
+  push:
+    branches:
+    
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
