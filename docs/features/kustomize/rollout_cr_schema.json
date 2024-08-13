@@ -282,7 +282,6 @@
                                                         "type": "string"
                                                     },
                                                     "secret": {
-                                                        "default": "datadog",
                                                         "type": "string"
                                                     }
                                                 },
@@ -5137,7 +5136,6 @@
                                                         "type": "string"
                                                     },
                                                     "secret": {
-                                                        "default": "datadog",
                                                         "type": "string"
                                                     }
                                                 },
@@ -10005,7 +10003,6 @@
                                                         "type": "string"
                                                     },
                                                     "secret": {
-                                                        "default": "datadog",
                                                         "type": "string"
                                                     }
                                                 },
